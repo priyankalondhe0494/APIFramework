@@ -1,0 +1,1 @@
+{"uuid":"062528f1-5ec5-43e8-a400-9732ff40be0f","name":"Product Test-Get Product With JsonPath","children":["37207850-078f-4352-a458-e7f1adfc83a6"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1749471708551,"stop":1749471708552}],"afters":[],"start":1749471708550,"stop":1749471709135}

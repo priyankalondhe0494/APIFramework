@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="API Regression Test Suite" verbose = "4">
+
+
+
+<listeners>
+
+
+<!--<listener
+ class-name="com.aventstack.chaintest.plugins.ChainTestListner" 
+/> -->
+</listeners>
+
+
+<test name="Go Rest API Test-GetUser">
+<classes>
+<class name = "com.qa.api.gorest.tests.getUserTest" />
+</classes>
+</test>
+
+<test name="Go Rest API Test-CreateUser">
+<classes>
+<class name = "com.qa.api.gorest.tests.createUserTest" />
+</classes>
+</test>
+
+<test name="Go Rest API Test-UpdateUser">
+<classes>
+<class name = "com.qa.api.gorest.tests.UpdateUserTest" />
+</classes>
+</test>
+
+<test name="Go Rest API Test-DeleteUser">
+<classes>
+<class name = "com.qa.api.gorest.tests.DeleteUserTest" />
+</classes>
+</test>
+
+<test name="Product Test-Get Product">
+<classes>
+<class name = "com.qa.api.products.tests.ProductAPITest" />
+</classes>
+</test>
+// package name with class name 
+<test name="Product Test-Get Product With JsonPath">
+<classes>
+<class name = "com.qa.api.products.tests.productAPIwithJsonpath" />
+</classes>
+</test>
+
+<test name="Schema Test">
+<classes>
+<class name = "com.qa.api.schema.tests.GoRestUsersApiSchemaTest" />
+</classes>
+</test>
+
+</suite>

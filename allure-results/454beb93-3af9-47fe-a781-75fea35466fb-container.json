@@ -1,0 +1,1 @@
+{"uuid":"454beb93-3af9-47fe-a781-75fea35466fb","name":"com.qa.api.gorest.tests.createUserTest","children":["3df93966-5520-4abc-bf6a-34240063eb00"],"befores":[{"name":"setUpToken","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1749976299509,"stop":1749976299510}],"afters":[],"start":1749976299042,"stop":1749976299548}
