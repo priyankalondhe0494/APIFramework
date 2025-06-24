@@ -1,0 +1,56 @@
+pipeline {
+    agent any
+    stages {
+        stage("Build") {
+             steps {
+                echo ("Build the Project")
+            }
+		}
+		stage("Run Unit Test") {
+             steps {
+                echo ("Run UTs")
+            }
+		}
+		stage("Run Integration Test") {
+             steps {
+                echo ("Run ITs")
+            }
+		}
+		stage("Deploy to Dev") {
+             steps {
+                echo ("deploy to dev")
+            }
+		}
+		stage("Deploy to QA") {
+             steps {
+                echo ("Deploy to QA")
+            }
+		}
+		stage("Run Regression Test cases on QA") {
+             steps {
+                echo ("Run API testcases on QA")
+            }
+		}
+		stage("Deploy to Stage") {
+             steps {
+                echo ("deploy to stage")
+            }
+		}
+		stage("Run Sanity API Test cases on stage") {
+             steps {
+                echo ("run Sanity Test cases on stage")
+            }
+		}
+		stage("Deploy to UAT") {
+             steps {
+                echo ("deploy to UAT")
+            }
+		}
+		stage("Deploy to PROD") {
+             steps {
+                echo ("Deploy to PROD")
+            }
+		}
+            
+        }
+    }
